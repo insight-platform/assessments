@@ -1,10 +1,10 @@
 import asyncio
 import logging
 
-from python_q3_2025.detector.src.alert import AlertManager
-from python_q3_2025.detector.src.config import Configurator
-from python_q3_2025.detector.src.data import DataProducer
-from python_q3_2025.detector.src.detector import Detector
+from .alert import AlertManager
+from .config import Configurator
+from .data import DataProducer
+from .detector import Detector
 
 logger = logging.getLogger(__name__)
 

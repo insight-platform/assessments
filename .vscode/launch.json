@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: python_q3_2025.detector",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "python_q3_2025.detector.src"
+        }
+    ]
+}

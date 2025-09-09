@@ -1,8 +1,8 @@
 import logging
 from asyncio import Queue
 
-from python_q3_2025.detector.src.alert import AlertManager
-from python_q3_2025.detector.src.config import Config
+from .alert import AlertManager
+from .config import Config
 
 logger = logging.getLogger(__name__)
 

@@ -1,7 +1,7 @@
 from asyncio import Queue
 from dataclasses import dataclass
 
-from python_q3_2025.detector.src.config import Config
+from .config import Config
 
 
 @dataclass
