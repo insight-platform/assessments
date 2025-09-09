@@ -1,6 +1,8 @@
 from asyncio import Queue
 from dataclasses import dataclass
 
+from python_q3_2025.detector.src.config import Config
+
 
 @dataclass
 class Data:
@@ -9,7 +11,8 @@ class Data:
 
 
 class DataProducer:
-    def __init__(self, queue: Queue):
+    def __init__(self, config: Config, queue: Queue):
+        self._config = config
         self._queue = queue
 
     async def run(self):
